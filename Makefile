@@ -9,7 +9,7 @@ BONUS_OBJS		= $(BONUS_SRCS:.c=.o)
 CC				= gcc
 RM				= rm -f
 CFLAGS			= -Wall -Wextra -Werror -I./includes/
-LIBFT			= cd ../libft && make
+LIBFT			= cd ./libft && make
 LIBFT_INC		= ./libft/libft.a
 
 NAME			= pipex
